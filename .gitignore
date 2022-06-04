@@ -1,0 +1,5 @@
+rasa_new_env/*
+.rasa/*
+models/*
+.idea/*
+
