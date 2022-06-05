@@ -1,0 +1,36 @@
+# rasax specific settings
+rasax:
+    # initialUser is the user which is created upon the initial start of Rasa Enterprise
+    initialUser:
+        # username specifies a name of this user - defaults to "admin"
+        username: "ligana"
+        # password for the Rasa Enterprise user
+        password: "aE8X2Z2G9j"
+    # passwordSalt Rasa X uses to salt the user passwords
+    passwordSalt: "aE8X2Z2G1j"
+    # token Rasa X accepts as authentication token from other Rasa services
+    token: "aE8X2Z2G2j"
+    # jwtSecret which is used to sign the jwtTokens of the users
+    jwtSecret: "aE8X2Z2G3j"
+    tag: "latest"
+# rasa: Settings common for all Rasa containers
+rasa:
+    # token Rasa accepts as authentication token from other Rasa services
+    token: "aE8X2Z2G4j"
+# RabbitMQ specific settings
+rabbitmq:
+    # rabbitmq settings of the subchart
+    auth:
+        # password which is used for the authentication
+        password: "aE8X2Z2G5j"
+# global settings of the used subcharts
+global:
+    # postgresql: global settings of the postgresql subchart
+    postgresql:
+        # postgresqlPassword is the password which is used when the postgresqlUsername equals "postgres"
+        postgresqlPassword: "aE8X2Z2G6j"
+    # redis: global settings of the redis subchart
+    redis:
+        # password to use in case there no external secret was provided
+        password: "aE8X2Z2G7j"
+    tag: "undefined-full"

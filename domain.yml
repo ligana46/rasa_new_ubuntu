@@ -5,7 +5,6 @@ session_config:
 intents:
 - CHI:
     is_retrieval_intent: true
-    use_entities: []
 - DIA-INT-ask_info_LIBR:
     use_entities:
     - LIB_name

@@ -2,4 +2,8 @@ rasa_new_env/*
 .rasa/*
 models/*
 .idea/*
+events.db
+get_helm.sh
+minikube-linux-amd64
+rasa.db
 
